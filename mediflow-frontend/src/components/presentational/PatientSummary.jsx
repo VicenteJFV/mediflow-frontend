@@ -6,7 +6,7 @@ const PatientSummary = ({ patients, isLoading, error }) => {
 
   return (
     <div className="patient-summary">
-      <h2>Historial de Pacientes (MediFlow)</h2>
+      <h2 className="text-xl font-bold">Portal Clínico de Pacientes (MediFlow)</h2>
       <ul>
         {patients.map(patient => (
           <li key={patient.id}>
